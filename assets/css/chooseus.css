@@ -1,0 +1,46 @@
+#chooseus{
+    width: 100%;
+    padding: 90px 64px 70px 64px;
+    background-color: #f4fcfa;
+}
+#chooseus .minibox{
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+    margin-bottom: 56px;
+}
+.box{ 
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}   
+.box img{
+    position: relative;
+    left: 0;
+}
+.minibox h1{
+    font-size: 48px;
+}
+.minibox hr{
+    border: 1.5px solid #29b754;
+    width: 100px;
+    margin: 16px 0 16px 200px;
+}   
+.minibox h3{
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.textbox h2{
+    font-size: 26px;
+    margin: 32px 0 24px;
+    transition: 0.5s;
+}
+.textbox h2:hover{
+    color: #29b754;
+}
+.textbox p{
+    width: 250px;
+    font-size: 20px;
+    line-height: 1.4;
+}

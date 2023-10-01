@@ -1,0 +1,53 @@
+header{
+    padding: 160px 0 64px;
+    background-image: url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    background-color: #abffdb;
+    background-blend-mode: multiply;
+}
+img{
+    position: relative;
+    top: 16px;
+    right: 280px;
+}
+nav {
+    position: absolute;
+    right: 80px;
+    top: 4px;
+}
+a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+a[href="#news"]{
+    background-color: #10c98f;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+a[href="#chooseus"]{
+    position: relative;
+}
+nav ul{
+    display: none;
+    width: 150px;
+    list-style-type: none;
+    background-color: #ffffff;
+    color: #565555;
+    padding: 16px 16px;
+    position: absolute;
+    left: 0;
+    top: 48px;
+}
+nav li{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+a[href="#chooseus"]:hover ul{
+    display: block;
+}
